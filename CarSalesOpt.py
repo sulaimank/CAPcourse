@@ -18,13 +18,15 @@ df.drop_duplicates(inplace=True)
 ## Convert data types
 df['Annual Income'] = df['Annual Income'].astype(int)
 df['Date'] = pd.to_datetime(df['Date'])
+## Clean Car_id data to numerical
 df['Car_id'] = df['Car_id'].str.replace('C_CND_', '')
 # Select only numeric columns for the correlation matrix
 #numeric_df = df.select_dtypes(include=[np.number])
-# Convert 'Gender' to numeric: Male=0, Female=1
+## Convert 'Gender' to numeric: Male=0, Female=1
 df['Gender_numeric'] = df['Gender'].map({'Male': 0, 'Female': 1})
-# Convert 'Transmission' to numeric: Manual=0, Auto=1
+## Convert 'Transmission' to numeric: Manual=0, Auto=1
 df['Transmission_numeric'] = df['Transmission'].map({'Manual': 0, 'Auto': 1})
+## select usable data for numeric correlation
 columns_of_interest = ['Annual Income', 'Price ($)', 'Gender_numeric', 'Transmission_numeric']
 subset_df = df[columns_of_interest]
 ## Normalize numerical features
