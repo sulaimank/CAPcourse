@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from scipy import stats
 
 # Load the dataset
-df = pd.read_csv(r'datasets/carSales.csv')
+df = pd.read_csv(r'C:\Users\Setup User\Documents\GitHub\CAPcourse\CAPcourse\datasets\carSales.csv')
 
 # Data cleaning
 ## Handle missing values
