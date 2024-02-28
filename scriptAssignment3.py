@@ -33,7 +33,7 @@ sample_input_array = [
     {"16": "In the end, we will remember not the words of our enemies, but the silence of our friends."}
 ]
 
-array_input_number = np.random.randint(1, 16)
+array_input_number = 1 #np.random.randint(1, 16)
 
 text_to_tokenize = sample_input_array[array_input_number - 1][str(array_input_number)]
 
@@ -132,9 +132,6 @@ plt.xlabel('Keys')
 plt.ylabel('Queries')
 
 plt.show()
-
-# Call the self_attention function
-output, attention_scores = self_attention(embeddings, embed_dim)
 
 # Apply PCA
 pca = PCA(n_components=2)  # reduce to 2 dimensions
