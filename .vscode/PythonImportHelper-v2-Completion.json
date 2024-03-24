@@ -1,0 +1,738 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "OneHotEncoder",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "OneHotEncoder",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "LabelEncoder",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "MinMaxScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "PCA",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "stats",
+        "importPath": "scipy",
+        "description": "scipy",
+        "isExtraImport": true,
+        "detail": "scipy",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "LinearRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "resample",
+        "importPath": "sklearn.utils",
+        "description": "sklearn.utils",
+        "isExtraImport": true,
+        "detail": "sklearn.utils",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_recall_fscore_support",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "GaussianNB",
+        "importPath": "sklearn.naive_bayes",
+        "description": "sklearn.naive_bayes",
+        "isExtraImport": true,
+        "detail": "sklearn.naive_bayes",
+        "documentation": {}
+    },
+    {
+        "label": "MultinomialNB",
+        "importPath": "sklearn.naive_bayes",
+        "description": "sklearn.naive_bayes",
+        "isExtraImport": true,
+        "detail": "sklearn.naive_bayes",
+        "documentation": {}
+    },
+    {
+        "label": "svm",
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "isExtraImport": true,
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "MLPClassifier",
+        "importPath": "sklearn.neural_network",
+        "description": "sklearn.neural_network",
+        "isExtraImport": true,
+        "detail": "sklearn.neural_network",
+        "documentation": {}
+    },
+    {
+        "label": "MLPRegressor",
+        "importPath": "sklearn.neural_network",
+        "description": "sklearn.neural_network",
+        "isExtraImport": true,
+        "detail": "sklearn.neural_network",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "df = pd.read_csv(r'C:\\Users\\Setup User\\Documents\\GitHub\\CAPcourse\\CAPcourse\\datasets\\carSales.csv')\n# Data cleaning\n## Handle missing values\ndf.fillna(method='ffill', inplace=True) # Example: forward fill\n## Remove duplicate records\ndf.drop_duplicates(inplace=True)\n## Convert data types\ndf['Annual Income'] = df['Annual Income'].astype(int)\ndf['Date'] = pd.to_datetime(df['Date'])\ndf['Car_id'] = df['Car_id'].str.replace('C_CND_', '')",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "df['Date']",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "df['Date'] = pd.to_datetime(df['Date'])\ndf['Car_id'] = df['Car_id'].str.replace('C_CND_', '')\n# Select only numeric columns for the correlation matrix\n#numeric_df = df.select_dtypes(include=[np.number])\n# Convert 'Gender' to numeric: Male=0, Female=1\ndf['Gender_numeric'] = df['Gender'].map({'Male': 0, 'Female': 1})\n# Convert 'Transmission' to numeric: Manual=0, Auto=1\ndf['Transmission_numeric'] = df['Transmission'].map({'Manual': 0, 'Auto': 1})\ncolumns_of_interest = ['Annual Income', 'Price ($)', 'Gender_numeric', 'Transmission_numeric']\nsubset_df = df[columns_of_interest]",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "df['Car_id']",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "df['Car_id'] = df['Car_id'].str.replace('C_CND_', '')\n# Select only numeric columns for the correlation matrix\n#numeric_df = df.select_dtypes(include=[np.number])\n# Convert 'Gender' to numeric: Male=0, Female=1\ndf['Gender_numeric'] = df['Gender'].map({'Male': 0, 'Female': 1})\n# Convert 'Transmission' to numeric: Manual=0, Auto=1\ndf['Transmission_numeric'] = df['Transmission'].map({'Manual': 0, 'Auto': 1})\ncolumns_of_interest = ['Annual Income', 'Price ($)', 'Gender_numeric', 'Transmission_numeric']\nsubset_df = df[columns_of_interest]\n## Normalize numerical features",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "#numeric_df",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "#numeric_df = df.select_dtypes(include=[np.number])\n# Convert 'Gender' to numeric: Male=0, Female=1\ndf['Gender_numeric'] = df['Gender'].map({'Male': 0, 'Female': 1})\n# Convert 'Transmission' to numeric: Manual=0, Auto=1\ndf['Transmission_numeric'] = df['Transmission'].map({'Manual': 0, 'Auto': 1})\ncolumns_of_interest = ['Annual Income', 'Price ($)', 'Gender_numeric', 'Transmission_numeric']\nsubset_df = df[columns_of_interest]\n## Normalize numerical features\nscaler = StandardScaler()\ndf['Annual Income'] = scaler.fit_transform(df[['Annual Income']])",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "df['Gender_numeric']",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "df['Gender_numeric'] = df['Gender'].map({'Male': 0, 'Female': 1})\n# Convert 'Transmission' to numeric: Manual=0, Auto=1\ndf['Transmission_numeric'] = df['Transmission'].map({'Manual': 0, 'Auto': 1})\ncolumns_of_interest = ['Annual Income', 'Price ($)', 'Gender_numeric', 'Transmission_numeric']\nsubset_df = df[columns_of_interest]\n## Normalize numerical features\nscaler = StandardScaler()\ndf['Annual Income'] = scaler.fit_transform(df[['Annual Income']])\n## Handle outliers (example using Z-score)\nprint(f\"Dataset dimensions: {df.shape}\")",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "df['Transmission_numeric']",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "df['Transmission_numeric'] = df['Transmission'].map({'Manual': 0, 'Auto': 1})\ncolumns_of_interest = ['Annual Income', 'Price ($)', 'Gender_numeric', 'Transmission_numeric']\nsubset_df = df[columns_of_interest]\n## Normalize numerical features\nscaler = StandardScaler()\ndf['Annual Income'] = scaler.fit_transform(df[['Annual Income']])\n## Handle outliers (example using Z-score)\nprint(f\"Dataset dimensions: {df.shape}\")\n# Provide descriptive statistics\nprint(df.describe(include='all'))",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "columns_of_interest",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "columns_of_interest = ['Annual Income', 'Price ($)', 'Gender_numeric', 'Transmission_numeric']\nsubset_df = df[columns_of_interest]\n## Normalize numerical features\nscaler = StandardScaler()\ndf['Annual Income'] = scaler.fit_transform(df[['Annual Income']])\n## Handle outliers (example using Z-score)\nprint(f\"Dataset dimensions: {df.shape}\")\n# Provide descriptive statistics\nprint(df.describe(include='all'))\n# Data Visualizations",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "subset_df",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "subset_df = df[columns_of_interest]\n## Normalize numerical features\nscaler = StandardScaler()\ndf['Annual Income'] = scaler.fit_transform(df[['Annual Income']])\n## Handle outliers (example using Z-score)\nprint(f\"Dataset dimensions: {df.shape}\")\n# Provide descriptive statistics\nprint(df.describe(include='all'))\n# Data Visualizations\n## Box plot for Annual Income",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "scaler = StandardScaler()\ndf['Annual Income'] = scaler.fit_transform(df[['Annual Income']])\n## Handle outliers (example using Z-score)\nprint(f\"Dataset dimensions: {df.shape}\")\n# Provide descriptive statistics\nprint(df.describe(include='all'))\n# Data Visualizations\n## Box plot for Annual Income\nsns.boxplot(x='Annual Income', y='Gender', native_scale=True, data=df)\nplt.show()",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "encoder",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "encoder = OneHotEncoder(sparse_output=False)\nencoded_features = encoder.fit_transform(df[['Gender', 'Transmission']])\n## PCA for dimensionality reduction\npca = PCA(n_components=2)\ndf_pca = pca.fit_transform(df.select_dtypes(include=[np.number]))",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "encoded_features",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "encoded_features = encoder.fit_transform(df[['Gender', 'Transmission']])\n## PCA for dimensionality reduction\npca = PCA(n_components=2)\ndf_pca = pca.fit_transform(df.select_dtypes(include=[np.number]))",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "pca",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "pca = PCA(n_components=2)\ndf_pca = pca.fit_transform(df.select_dtypes(include=[np.number]))",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "df_pca",
+        "kind": 5,
+        "importPath": "completedAssignments.CarSalesOpt",
+        "description": "completedAssignments.CarSalesOpt",
+        "peekOfCode": "df_pca = pca.fit_transform(df.select_dtypes(include=[np.number]))",
+        "detail": "completedAssignments.CarSalesOpt",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df = pd.read_csv(r\"C:\\Users\\Setup User\\Downloads\\carSales.csv\")\n#df = pd.read_csv('carSales.csv')\ndf = df.drop(columns=['Customer Name','Dealer_Name','Phone','Company','Dealer_No ','Car_id','Dealer_Region'])\ndf.head(5)\n# Convert the Date column to datetime\ndf['Date'] = pd.to_datetime(df['Date'])\n# check for na or Null values\nisnacount = df.isna().sum()\nisnullcount = df.isnull().sum()\n# print results",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "#df",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "#df = pd.read_csv('carSales.csv')\ndf = df.drop(columns=['Customer Name','Dealer_Name','Phone','Company','Dealer_No ','Car_id','Dealer_Region'])\ndf.head(5)\n# Convert the Date column to datetime\ndf['Date'] = pd.to_datetime(df['Date'])\n# check for na or Null values\nisnacount = df.isna().sum()\nisnullcount = df.isnull().sum()\n# print results\nprint(\"DataFrame data types: \\n\", df.dtypes)",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df = df.drop(columns=['Customer Name','Dealer_Name','Phone','Company','Dealer_No ','Car_id','Dealer_Region'])\ndf.head(5)\n# Convert the Date column to datetime\ndf['Date'] = pd.to_datetime(df['Date'])\n# check for na or Null values\nisnacount = df.isna().sum()\nisnullcount = df.isnull().sum()\n# print results\nprint(\"DataFrame data types: \\n\", df.dtypes)\nprint(\"NA data counts: \\n\", isnacount)",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df['Date']",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df['Date'] = pd.to_datetime(df['Date'])\n# check for na or Null values\nisnacount = df.isna().sum()\nisnullcount = df.isnull().sum()\n# print results\nprint(\"DataFrame data types: \\n\", df.dtypes)\nprint(\"NA data counts: \\n\", isnacount)\nprint(\"\\nNULL data counts: \\n\", isnullcount)\n# Get the number of rows and columns\nnum_rows, num_columns = df.shape",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "isnacount",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "isnacount = df.isna().sum()\nisnullcount = df.isnull().sum()\n# print results\nprint(\"DataFrame data types: \\n\", df.dtypes)\nprint(\"NA data counts: \\n\", isnacount)\nprint(\"\\nNULL data counts: \\n\", isnullcount)\n# Get the number of rows and columns\nnum_rows, num_columns = df.shape\n# Print the number of rows and columns\nprint(f\"Number of rows: {num_rows}\")",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "isnullcount",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "isnullcount = df.isnull().sum()\n# print results\nprint(\"DataFrame data types: \\n\", df.dtypes)\nprint(\"NA data counts: \\n\", isnacount)\nprint(\"\\nNULL data counts: \\n\", isnullcount)\n# Get the number of rows and columns\nnum_rows, num_columns = df.shape\n# Print the number of rows and columns\nprint(f\"Number of rows: {num_rows}\")\nprint(f\"Number of columns: {num_columns}\")",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "columns",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "columns = ['Body Style','Model', 'Engine', 'Color']\nunique_values_dict = {}\nfor column in columns:\n    unique_values_dict[column] = df[column].unique().tolist()\n# Print the unique values for each column\nfor column, unique_values in unique_values_dict.items():\n    print(f\"{column}: {unique_values}\")\n# Change just the engine column to correct typo\ndf['Engine'] = df['Engine'].replace('DoubleÂ\\xa0Overhead Camshaft', 'Double Overhead Camshaft')\n# Setup column name variable and empty dictionary",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "unique_values_dict",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "unique_values_dict = {}\nfor column in columns:\n    unique_values_dict[column] = df[column].unique().tolist()\n# Print the unique values for each column\nfor column, unique_values in unique_values_dict.items():\n    print(f\"{column}: {unique_values}\")\n# Change just the engine column to correct typo\ndf['Engine'] = df['Engine'].replace('DoubleÂ\\xa0Overhead Camshaft', 'Double Overhead Camshaft')\n# Setup column name variable and empty dictionary\ncolumns = ['Body Style','Engine', 'Color','Transmission','Gender','Price ($)','Model']  # replace with your actual column names",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df['Engine']",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df['Engine'] = df['Engine'].replace('DoubleÂ\\xa0Overhead Camshaft', 'Double Overhead Camshaft')\n# Setup column name variable and empty dictionary\ncolumns = ['Body Style','Engine', 'Color','Transmission','Gender','Price ($)','Model']  # replace with your actual column names\nunique_values_dict = {}\nfor column in columns:\n    unique_values_dict[column] = df[column].unique().tolist()\n# Print the unique values for each column\nfor column, unique_values in unique_values_dict.items():\n    print(f\"{column}: {unique_values}\")\ndfdesc = df.describe()",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "columns",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "columns = ['Body Style','Engine', 'Color','Transmission','Gender','Price ($)','Model']  # replace with your actual column names\nunique_values_dict = {}\nfor column in columns:\n    unique_values_dict[column] = df[column].unique().tolist()\n# Print the unique values for each column\nfor column, unique_values in unique_values_dict.items():\n    print(f\"{column}: {unique_values}\")\ndfdesc = df.describe()\ndfdesc.round(2)\n# Visualize with basic dataframe without any preprocessing",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "unique_values_dict",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "unique_values_dict = {}\nfor column in columns:\n    unique_values_dict[column] = df[column].unique().tolist()\n# Print the unique values for each column\nfor column, unique_values in unique_values_dict.items():\n    print(f\"{column}: {unique_values}\")\ndfdesc = df.describe()\ndfdesc.round(2)\n# Visualize with basic dataframe without any preprocessing\nplt.figure(figsize=(12, 6))",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "dfdesc",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "dfdesc = df.describe()\ndfdesc.round(2)\n# Visualize with basic dataframe without any preprocessing\nplt.figure(figsize=(12, 6))\nsns.violinplot(x='Body Style', y='Annual Income', data=df)\nplt.title('Annual Income Distribution across Body Styles')\nplt.xlabel('Body Style')\nplt.ylabel('Annual Income')\nplt.show()\n# Calculate the Inter Quartile Range for Annual Income",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "Q1",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "Q1 = df['Annual Income'].quantile(0.25)\nQ3 = df['Annual Income'].quantile(0.75)\nIQR = Q3 - Q1\n# Define the cutoff for outliers\ncutoff = IQR * 1.5\n# Determine the bounds for the outliers\nlower_bound = Q1 - cutoff\nupper_bound = Q3 + cutoff\ndf_outliers = df[(df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound)]\n# Print the outliers",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "Q3",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "Q3 = df['Annual Income'].quantile(0.75)\nIQR = Q3 - Q1\n# Define the cutoff for outliers\ncutoff = IQR * 1.5\n# Determine the bounds for the outliers\nlower_bound = Q1 - cutoff\nupper_bound = Q3 + cutoff\ndf_outliers = df[(df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound)]\n# Print the outliers\nprint(\"Annual Income class outliers:\\n\", df_outliers['Annual Income'].head(5))",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "IQR",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "IQR = Q3 - Q1\n# Define the cutoff for outliers\ncutoff = IQR * 1.5\n# Determine the bounds for the outliers\nlower_bound = Q1 - cutoff\nupper_bound = Q3 + cutoff\ndf_outliers = df[(df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound)]\n# Print the outliers\nprint(\"Annual Income class outliers:\\n\", df_outliers['Annual Income'].head(5))\n# Filter the dataframe to remove outliers from 'Annual Income'",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "cutoff",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "cutoff = IQR * 1.5\n# Determine the bounds for the outliers\nlower_bound = Q1 - cutoff\nupper_bound = Q3 + cutoff\ndf_outliers = df[(df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound)]\n# Print the outliers\nprint(\"Annual Income class outliers:\\n\", df_outliers['Annual Income'].head(5))\n# Filter the dataframe to remove outliers from 'Annual Income'\ndf = df[(df['Annual Income'] >= lower_bound) & (df['Annual Income'] <= upper_bound)]\n# Check if any values in the filtered DataFrame fall outside the bounds",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "lower_bound",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "lower_bound = Q1 - cutoff\nupper_bound = Q3 + cutoff\ndf_outliers = df[(df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound)]\n# Print the outliers\nprint(\"Annual Income class outliers:\\n\", df_outliers['Annual Income'].head(5))\n# Filter the dataframe to remove outliers from 'Annual Income'\ndf = df[(df['Annual Income'] >= lower_bound) & (df['Annual Income'] <= upper_bound)]\n# Check if any values in the filtered DataFrame fall outside the bounds\noutliers_present = any((df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound))\n# Print result and confirm process complete.",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "upper_bound",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "upper_bound = Q3 + cutoff\ndf_outliers = df[(df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound)]\n# Print the outliers\nprint(\"Annual Income class outliers:\\n\", df_outliers['Annual Income'].head(5))\n# Filter the dataframe to remove outliers from 'Annual Income'\ndf = df[(df['Annual Income'] >= lower_bound) & (df['Annual Income'] <= upper_bound)]\n# Check if any values in the filtered DataFrame fall outside the bounds\noutliers_present = any((df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound))\n# Print result and confirm process complete.\nif outliers_present:",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_outliers",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_outliers = df[(df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound)]\n# Print the outliers\nprint(\"Annual Income class outliers:\\n\", df_outliers['Annual Income'].head(5))\n# Filter the dataframe to remove outliers from 'Annual Income'\ndf = df[(df['Annual Income'] >= lower_bound) & (df['Annual Income'] <= upper_bound)]\n# Check if any values in the filtered DataFrame fall outside the bounds\noutliers_present = any((df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound))\n# Print result and confirm process complete.\nif outliers_present:\n    print(\"Outliers were not removed correctly.\")",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df = df[(df['Annual Income'] >= lower_bound) & (df['Annual Income'] <= upper_bound)]\n# Check if any values in the filtered DataFrame fall outside the bounds\noutliers_present = any((df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound))\n# Print result and confirm process complete.\nif outliers_present:\n    print(\"Outliers were not removed correctly.\")\nelse:\n    print(\"Outliers were removed correctly.\")\n# Now visualized the data without outliers\nplt.figure(figsize=(12, 6))",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "outliers_present",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "outliers_present = any((df['Annual Income'] < lower_bound) | (df['Annual Income'] > upper_bound))\n# Print result and confirm process complete.\nif outliers_present:\n    print(\"Outliers were not removed correctly.\")\nelse:\n    print(\"Outliers were removed correctly.\")\n# Now visualized the data without outliers\nplt.figure(figsize=(12, 6))\nsns.violinplot(x='Body Style', y='Annual Income', data=df)\nplt.title('Annual Income Distribution across Body Styles (Outliers Removed)')",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "remappeddf",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "remappeddf = df.copy()\nremappeddf.drop(columns=['Date'], inplace=True)\n# Setup the label encoder\nle = LabelEncoder()\n# Fit and transform the 'Model' column\nremappeddf['Model'] = le.fit_transform(remappeddf['Model'])\nprint(remappeddf.head(5))\nle = LabelEncoder()\n# Fit and transform the 'Model' column\nremappeddf['Model'] = le.fit_transform(remappeddf['Model'])",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "le",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "le = LabelEncoder()\n# Fit and transform the 'Model' column\nremappeddf['Model'] = le.fit_transform(remappeddf['Model'])\nprint(remappeddf.head(5))\nle = LabelEncoder()\n# Fit and transform the 'Model' column\nremappeddf['Model'] = le.fit_transform(remappeddf['Model'])\ncategorical_columns = ['Body Style', 'Engine', 'Color', 'Transmission', 'Gender']  # Categorical columns\n# Keeping only the categorical columns for encoding\nremappeddf_categorical = remappeddf[categorical_columns]",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "remappeddf['Model']",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "remappeddf['Model'] = le.fit_transform(remappeddf['Model'])\nprint(remappeddf.head(5))\nle = LabelEncoder()\n# Fit and transform the 'Model' column\nremappeddf['Model'] = le.fit_transform(remappeddf['Model'])\ncategorical_columns = ['Body Style', 'Engine', 'Color', 'Transmission', 'Gender']  # Categorical columns\n# Keeping only the categorical columns for encoding\nremappeddf_categorical = remappeddf[categorical_columns]\nencoder = OneHotEncoder()\ndf_encoded = encoder.fit_transform(remappeddf_categorical).toarray()",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "le",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "le = LabelEncoder()\n# Fit and transform the 'Model' column\nremappeddf['Model'] = le.fit_transform(remappeddf['Model'])\ncategorical_columns = ['Body Style', 'Engine', 'Color', 'Transmission', 'Gender']  # Categorical columns\n# Keeping only the categorical columns for encoding\nremappeddf_categorical = remappeddf[categorical_columns]\nencoder = OneHotEncoder()\ndf_encoded = encoder.fit_transform(remappeddf_categorical).toarray()\ndf_encoded = pd.DataFrame(df_encoded, columns=encoder.get_feature_names_out(categorical_columns))\n# Combine the encoded DataFrame with the rest of the data and exlude the original categorical columns for redundancy sake",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "remappeddf['Model']",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "remappeddf['Model'] = le.fit_transform(remappeddf['Model'])\ncategorical_columns = ['Body Style', 'Engine', 'Color', 'Transmission', 'Gender']  # Categorical columns\n# Keeping only the categorical columns for encoding\nremappeddf_categorical = remappeddf[categorical_columns]\nencoder = OneHotEncoder()\ndf_encoded = encoder.fit_transform(remappeddf_categorical).toarray()\ndf_encoded = pd.DataFrame(df_encoded, columns=encoder.get_feature_names_out(categorical_columns))\n# Combine the encoded DataFrame with the rest of the data and exlude the original categorical columns for redundancy sake\ndf_rest = remappeddf.drop(columns=categorical_columns)\ndf_combined = pd.concat([df_rest, df_encoded], axis=1)",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "categorical_columns",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "categorical_columns = ['Body Style', 'Engine', 'Color', 'Transmission', 'Gender']  # Categorical columns\n# Keeping only the categorical columns for encoding\nremappeddf_categorical = remappeddf[categorical_columns]\nencoder = OneHotEncoder()\ndf_encoded = encoder.fit_transform(remappeddf_categorical).toarray()\ndf_encoded = pd.DataFrame(df_encoded, columns=encoder.get_feature_names_out(categorical_columns))\n# Combine the encoded DataFrame with the rest of the data and exlude the original categorical columns for redundancy sake\ndf_rest = remappeddf.drop(columns=categorical_columns)\ndf_combined = pd.concat([df_rest, df_encoded], axis=1)\n# Print preview of the combined DataFrame",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "remappeddf_categorical",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "remappeddf_categorical = remappeddf[categorical_columns]\nencoder = OneHotEncoder()\ndf_encoded = encoder.fit_transform(remappeddf_categorical).toarray()\ndf_encoded = pd.DataFrame(df_encoded, columns=encoder.get_feature_names_out(categorical_columns))\n# Combine the encoded DataFrame with the rest of the data and exlude the original categorical columns for redundancy sake\ndf_rest = remappeddf.drop(columns=categorical_columns)\ndf_combined = pd.concat([df_rest, df_encoded], axis=1)\n# Print preview of the combined DataFrame\nprint(df_combined.head())\n# Get the number of rows and columns",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "encoder",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "encoder = OneHotEncoder()\ndf_encoded = encoder.fit_transform(remappeddf_categorical).toarray()\ndf_encoded = pd.DataFrame(df_encoded, columns=encoder.get_feature_names_out(categorical_columns))\n# Combine the encoded DataFrame with the rest of the data and exlude the original categorical columns for redundancy sake\ndf_rest = remappeddf.drop(columns=categorical_columns)\ndf_combined = pd.concat([df_rest, df_encoded], axis=1)\n# Print preview of the combined DataFrame\nprint(df_combined.head())\n# Get the number of rows and columns\nnum_rows, num_columns = df_combined.shape",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_encoded",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_encoded = encoder.fit_transform(remappeddf_categorical).toarray()\ndf_encoded = pd.DataFrame(df_encoded, columns=encoder.get_feature_names_out(categorical_columns))\n# Combine the encoded DataFrame with the rest of the data and exlude the original categorical columns for redundancy sake\ndf_rest = remappeddf.drop(columns=categorical_columns)\ndf_combined = pd.concat([df_rest, df_encoded], axis=1)\n# Print preview of the combined DataFrame\nprint(df_combined.head())\n# Get the number of rows and columns\nnum_rows, num_columns = df_combined.shape\n# Print the number of rows and columns",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_encoded",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_encoded = pd.DataFrame(df_encoded, columns=encoder.get_feature_names_out(categorical_columns))\n# Combine the encoded DataFrame with the rest of the data and exlude the original categorical columns for redundancy sake\ndf_rest = remappeddf.drop(columns=categorical_columns)\ndf_combined = pd.concat([df_rest, df_encoded], axis=1)\n# Print preview of the combined DataFrame\nprint(df_combined.head())\n# Get the number of rows and columns\nnum_rows, num_columns = df_combined.shape\n# Print the number of rows and columns\nprint(f\"Number of rows: {num_rows}\")",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_rest",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_rest = remappeddf.drop(columns=categorical_columns)\ndf_combined = pd.concat([df_rest, df_encoded], axis=1)\n# Print preview of the combined DataFrame\nprint(df_combined.head())\n# Get the number of rows and columns\nnum_rows, num_columns = df_combined.shape\n# Print the number of rows and columns\nprint(f\"Number of rows: {num_rows}\")\nprint(f\"Number of columns: {num_columns}\")\n# Post processing statistics of the dataset/ dataframe",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_combined",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_combined = pd.concat([df_rest, df_encoded], axis=1)\n# Print preview of the combined DataFrame\nprint(df_combined.head())\n# Get the number of rows and columns\nnum_rows, num_columns = df_combined.shape\n# Print the number of rows and columns\nprint(f\"Number of rows: {num_rows}\")\nprint(f\"Number of columns: {num_columns}\")\n# Post processing statistics of the dataset/ dataframe\nprint(\"\\nRemapped DataFrame: \\n\\n\", df_combined.describe().round(3))  # This will give you count, mean, std, min, 25%, 50%, 75%, max",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "scaler = MinMaxScaler()\n# Select the columns to be normalized\ncolumns_to_normalize = ['Annual Income','Price ($)']  # Replace with your actual column names\n# Normalize the selected columns\ndf_normalized = df_combined.copy()\ndf_normalized[columns_to_normalize] = scaler.fit_transform(df_normalized[columns_to_normalize])\n# Print the normalized dataframe\nprint(df_normalized.head())\nprint(\"Before sampling: \\n\", df_normalized.Gender_Male.value_counts())\n# Separate majority and minority classes",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "columns_to_normalize",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "columns_to_normalize = ['Annual Income','Price ($)']  # Replace with your actual column names\n# Normalize the selected columns\ndf_normalized = df_combined.copy()\ndf_normalized[columns_to_normalize] = scaler.fit_transform(df_normalized[columns_to_normalize])\n# Print the normalized dataframe\nprint(df_normalized.head())\nprint(\"Before sampling: \\n\", df_normalized.Gender_Male.value_counts())\n# Separate majority and minority classes\ndf_majority = df_normalized[df_normalized.Gender_Male==1]\ndf_minority = df_normalized[df_normalized.Gender_Male==0]",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_normalized",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_normalized = df_combined.copy()\ndf_normalized[columns_to_normalize] = scaler.fit_transform(df_normalized[columns_to_normalize])\n# Print the normalized dataframe\nprint(df_normalized.head())\nprint(\"Before sampling: \\n\", df_normalized.Gender_Male.value_counts())\n# Separate majority and minority classes\ndf_majority = df_normalized[df_normalized.Gender_Male==1]\ndf_minority = df_normalized[df_normalized.Gender_Male==0]\n# Downsample majority class\ndf_majority_downsampled = resample(df_majority,",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_normalized[columns_to_normalize]",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_normalized[columns_to_normalize] = scaler.fit_transform(df_normalized[columns_to_normalize])\n# Print the normalized dataframe\nprint(df_normalized.head())\nprint(\"Before sampling: \\n\", df_normalized.Gender_Male.value_counts())\n# Separate majority and minority classes\ndf_majority = df_normalized[df_normalized.Gender_Male==1]\ndf_minority = df_normalized[df_normalized.Gender_Male==0]\n# Downsample majority class\ndf_majority_downsampled = resample(df_majority,\n                                 replace=False,    # sample without replacement",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_majority",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_majority = df_normalized[df_normalized.Gender_Male==1]\ndf_minority = df_normalized[df_normalized.Gender_Male==0]\n# Downsample majority class\ndf_majority_downsampled = resample(df_majority,\n                                 replace=False,    # sample without replacement\n                                 n_samples=len(df_minority),     # to match minority class\n                                 random_state=123) # reproducible results\n# Combine minority class with downsampled majority class\ndf_downsampled = pd.concat([df_majority_downsampled, df_minority])\n###",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_minority",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_minority = df_normalized[df_normalized.Gender_Male==0]\n# Downsample majority class\ndf_majority_downsampled = resample(df_majority,\n                                 replace=False,    # sample without replacement\n                                 n_samples=len(df_minority),     # to match minority class\n                                 random_state=123) # reproducible results\n# Combine minority class with downsampled majority class\ndf_downsampled = pd.concat([df_majority_downsampled, df_minority])\n###\n###",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_majority_downsampled",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_majority_downsampled = resample(df_majority,\n                                 replace=False,    # sample without replacement\n                                 n_samples=len(df_minority),     # to match minority class\n                                 random_state=123) # reproducible results\n# Combine minority class with downsampled majority class\ndf_downsampled = pd.concat([df_majority_downsampled, df_minority])\n###\n###\n###\n# Display new class counts",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "df_downsampled",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "df_downsampled = pd.concat([df_majority_downsampled, df_minority])\n###\n###\n###\n# Display new class counts\nprint(\"\\nAfter sampling: \\n\",df_downsampled.Gender_Male.value_counts())\nprint(df_downsampled.head())\n# Set up the X and y variables\nX = df_downsampled.drop(columns=['Annual Income'])  # Replace with the actual columns for X\ny = df_downsampled['Annual Income']",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "X = df_downsampled.drop(columns=['Annual Income'])  # Replace with the actual columns for X\ny = df_downsampled['Annual Income']\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)\ny_test.dropna(inplace=True)\nX_test.dropna(inplace=True)\ny_train.dropna(inplace=True)\nX_train.dropna(inplace=True)\nX_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.2, random_state=1)\nmodel = LinearRegression()\n# model = MultinomialNB()",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "y = df_downsampled['Annual Income']\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)\ny_test.dropna(inplace=True)\nX_test.dropna(inplace=True)\ny_train.dropna(inplace=True)\nX_train.dropna(inplace=True)\nX_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.2, random_state=1)\nmodel = LinearRegression()\n# model = MultinomialNB()\nprint(f\"Length of X_test: {len(X_test)}\")",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "model = LinearRegression()\n# model = MultinomialNB()\nprint(f\"Length of X_test: {len(X_test)}\")\nprint(f\"Length of y_test: {len(y_test)}\")\nmodel.fit(X_train, y_train)\n#X_test.dropna(inplace=True)\ny_pred = model.predict(X_test)\nprint(f\"Length of y_pred: {len(y_pred)}\")\naccuracy = accuracy_score(y_test, y_pred)\nprecision, recall, f1_score, _ = precision_recall_fscore_support(y_test, y_pred, average='weighted')",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "y_pred = model.predict(X_test)\nprint(f\"Length of y_pred: {len(y_pred)}\")\naccuracy = accuracy_score(y_test, y_pred)\nprecision, recall, f1_score, _ = precision_recall_fscore_support(y_test, y_pred, average='weighted')\nf1_score(y_test, y_pred, average='macro')\n# f1_score(y_true, y_pred, average='micro')\n# f1_score(y_true, y_pred, average='weighted')\n# f1_score(y_true, y_pred, average=None)",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "accuracy = accuracy_score(y_test, y_pred)\nprecision, recall, f1_score, _ = precision_recall_fscore_support(y_test, y_pred, average='weighted')\nf1_score(y_test, y_pred, average='macro')\n# f1_score(y_true, y_pred, average='micro')\n# f1_score(y_true, y_pred, average='weighted')\n# f1_score(y_true, y_pred, average=None)",
+        "detail": "p2",
+        "documentation": {}
+    }
+]
